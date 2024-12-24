@@ -1,0 +1,85 @@
+.wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: #1d1d1ded;
+    padding: var(--padding-section);
+    animation: slideTop linear 0.5s;
+
+    .container {
+        margin-top: 30px;
+        .header_mv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .title_singer {
+                width: 50%;
+                display: flex;
+            }
+        }
+        .content_section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #2c2c2c;
+            border-radius: 10px;
+            color: #fff;
+            line-height: 1.6;
+            font-size: 16px;
+            white-space: pre-wrap;
+            overflow-y: auto;
+            max-height: 100vh;
+        }
+        .ifarme_player {
+            width: 100%;
+            max-height: 60vh;
+            aspect-ratio: 16/ 9;
+            overflow: hidden;
+            border: none;
+            border-radius: 10px;
+            margin-top: 30px;
+            /* Căn giữa */
+            display: block; /* Đảm bảo iframe là một khối */
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+    }
+    .title_mv {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+.off {
+    animation: slideBot ease 0.5s;
+}
+@keyframes slideTop {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes slideBot {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+.lyrics_container {
+    max-height: 200px; /* Giới hạn chiều cao phần lời bài hát */
+    overflow-y: auto; /* Thanh cuộn dọc */
+    margin-top: 10px;
+    padding-right: 10px; /* Để không bị che bởi thanh cuộn */
+    font-size: 25px; /* Tăng kích thước font chữ */
+    line-height: 1.6; /* Tăng khoảng cách dòng để dễ đọc */
+    font-weight: bold; /* Đậm chữ để nổi bật */
+    text-align: center; /* Căn giữa văn bản */
+
+}
+// custom title Song
