@@ -9,7 +9,7 @@ The presented user interface is related to the Hades Music website. It uses the 
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=GDd3tFqtu-I">
-  </a>
+</a>
 </p>
 ## Main Technology
 
