@@ -20,11 +20,10 @@
         "axios": "^1.2.3",
         "classnames": "^2.3.2",
         "clsx": "^1.2.1",
-        "crypto": "^1.0.1",
+        "cross-env": "^10.1.0",
         "crypto-js": "^4.1.1",
         "file-saver": "^2.0.5",
         "keen-slider": "^6.8.5",
-        "node-fetch-cache": "^3.1.1",
         "normalize.css": "^8.0.1",
         "patch-package": "^6.5.1",
         "prop-types": "^15.8.1",
@@ -59,7 +58,7 @@
     },
     "scripts": {
         "start": "react-app-rewired start",
-        "build": "CI=false react-scripts build",
+        "build": "cross-env CI=false react-scripts build",
         "test": "react-app-rewired test",
         "eject": "react-scripts eject"
     },
