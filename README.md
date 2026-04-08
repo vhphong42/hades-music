@@ -3,10 +3,14 @@
 
 ## Introduction
 
-Hades Clone full-screen music player application
+Hades full-screen music player application
 
 The presented user interface is related to the Hades Music website. It uses the popular responsive design, which can give you the same experience as the original application, whether on a PC or mobile phone, motion or move.
 
+<p align="center">
+  <a href="hades-music.vercel.app">
+  </a>
+</p>
 ## Main Technology
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat&logo=SASS&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white)
