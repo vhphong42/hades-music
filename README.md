@@ -7,11 +7,10 @@ Hades full-screen music player application
 
 The presented user interface is related to the Hades Music website. It uses the popular responsive design, which can give you the same experience as the original application, whether on a PC or mobile phone, motion or move.
 
-<p align="center">
+## 🌐 Live Demo
 
-  <a href="https://hades-music.vercel.app/">
-  </a>
-</p>
+👉 https://hades-music.vercel.app/
+
 
 ## Main Technology
 
