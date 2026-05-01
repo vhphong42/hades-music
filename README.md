@@ -38,3 +38,6 @@ npm install
 npm run build
 npm start
 ```
+```Admin
+npm run dev
+```
